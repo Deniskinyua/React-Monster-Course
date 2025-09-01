@@ -1,9 +1,10 @@
+import UseContext from "./components/Hooks/UseContext/UseContext";
 
 
 function App() {
   return (
     <div>
-      <h1> React Monster Course</h1>
+      <UseContext/>
     </div>
   );
 }
