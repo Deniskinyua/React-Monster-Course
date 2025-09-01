@@ -1,5 +1,4 @@
 import {Component} from "react";
-import{ThemeContext} from './UseContext'
 
 export class ClassContextComponent extends Component{
     //create styles
@@ -13,11 +12,11 @@ export class ClassContextComponent extends Component{
     }
     render(){
         return(
-            <ThemeContext.Consumer>
+            <div>
                 {darkTheme =>{
                     return <div style={this.themeStyles(darkTheme)}> Class Theme</div>
                 }}
-            </ThemeContext.Consumer>
+            </div>
         );
     }
 }
